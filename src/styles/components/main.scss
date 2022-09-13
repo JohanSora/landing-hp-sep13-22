@@ -1,0 +1,138 @@
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+
+  .container-info12 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    .info1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom: 8px solid #01a982;
+      padding-bottom: 50px;
+      img {
+        width: 280px;
+      }
+      p {
+        font-size: 24px;
+        width: 50%;
+        strong {
+          color: #01a982;
+        }
+        .black-strong {
+          color: black;
+        }
+      }
+    }
+    .info2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 50px;
+      margin-top: 50px;
+      .container-text-info2 {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        gap: 45px;
+        p {
+          font-size: 24px;
+          strong {
+            color: #01a982;
+          }
+          .black-strong {
+            color: black;
+          }
+        }
+        ul {
+          font-size: 24px;
+          list-style-position: inside;
+          font-family: MetricApp-regular;
+          strong {
+            color: #01a982;
+          }
+        }
+      }
+
+      .container-direction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        border-left: 3px solid #01a982;
+        gap: 15px;
+        img {
+          width: 120px;
+        }
+        strong {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .info3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #d4fdf6;
+    padding: 40px 50px;
+    text-align: center;
+    .container-info3 {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      p {
+        font-size: 24px;
+      }
+      .black-strong {
+        color: black;
+      }
+      strong {
+        font-size: 24px;
+        color: #01a982;
+      }
+      a {
+        width: 50%;
+        .button-greenlake {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          color: #ffff;
+          background-color: #01a982;
+          font-family: Metricapp-regular;
+          font-size: 20px;
+          padding: 10px;
+          border-radius: 50px;
+          border: none;
+          cursor: pointer;
+          strong {
+            color: #ffff;
+            font-family: Metricapp-bold;
+          }
+
+          div {
+            min-width: 100px;
+            min-height: 20px;
+            border: 4px solid #ffff;
+          }
+        }
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

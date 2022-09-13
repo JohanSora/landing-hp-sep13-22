@@ -1,0 +1,106 @@
+.container-header-hp {
+  width: 100%;
+  height: 100%;
+  border-bottom: 15px solid #01a982;
+  .black-window {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6229058273700105) 46%,
+      rgba(255, 255, 255, 0.012261569666929262) 80%
+    );
+    .container-text-and-form {
+      display: flex;
+      width: 90%;
+      height: 600px;
+      justify-content: space-between;
+      align-content: space-between;
+      padding: 20px;
+
+      .text-header {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: aliceblue;
+        gap: 20px;
+        width: 50%;
+        h1 {
+          font-size: 50px;
+          border-bottom: 5px solid #01a982;
+          strong {
+            font-family: MetricApp-bold;
+            color: #01a982;
+          }
+        }
+        p {
+          font-weight: 100;
+          font-size: 23.5px;
+          strong {
+            color: #01a982;
+          }
+        }
+      }
+
+      .container-from-hp {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        form {
+          gap: 15px;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          input {
+            font-family: Metricapp-regular;
+            background-color: transparent;
+            border: 2px solid #ffff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: all;
+            transition-duration: 0.3s;
+            color: #ffff;
+          }
+          input::placeholder {
+            color: #ffff;
+            font-size: 16px;
+          }
+          input:focus {
+            background-color: #ffff;
+            color: black;
+            font-size: 16px;
+            outline-color: #01a982;
+          }
+          input:focus::placeholder {
+            color: black;
+          }
+
+          button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            color: #ffff;
+            background-color: #01a982;
+            font-family: Metricapp-bold;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            div {
+              min-width: 100px;
+              min-height: 20px;
+              border: 4px solid #ffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -49,7 +49,7 @@ const Main = () => {
             <strong className="black-strong">
               Cra. 40 # 10a-50, apto 501.
             </strong>
-            <small>Poblado,Medellín.</small>
+            <small>Poblado, Medellín.</small>
           </div>
         </div>
       </div>
@@ -66,7 +66,11 @@ const Main = () => {
             exclusiva cena preparada por dos chefs de alto prestigio.
           </p>
           <strong>Invitación valida para una persona.</strong>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.hpe.com/us/en/greenlake.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="button-greenlake">
               <p>
                 Visita <strong>GreenLake.HPE.com</strong>

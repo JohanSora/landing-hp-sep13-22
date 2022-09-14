@@ -57,16 +57,32 @@ const Footer = () => {
           </small>
         </div>
         <div className="socialnet">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.facebook.com/HewlettPackardEnterprise/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={face} alt="hp_facebook" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/hpe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={twit} alt="hp_twitter" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/company/hewlett-packard-enterprise"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={linke} alt="hp_linkedin" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.youtube.com/hpe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={yout} alt="hp_youtube" />
           </a>
         </div>

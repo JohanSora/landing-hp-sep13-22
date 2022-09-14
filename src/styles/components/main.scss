@@ -79,6 +79,62 @@ main {
     }
   }
 
+  @media (max-width: 1080px) {
+    .container-info12 {
+      .info1 {
+        padding-bottom: 50px;
+        img {
+          width: 120px;
+        }
+        p {
+          font-size: 14px;
+          width: 50%;
+          strong {
+            color: #01a982;
+          }
+          .black-strong {
+            color: black;
+          }
+        }
+      }
+      .info2 {
+        .container-text-info2 {
+          width: 50%;
+          p {
+            font-size: 14px;
+            strong {
+              color: #01a982;
+            }
+            .black-strong {
+              color: black;
+            }
+          }
+          ul {
+            font-size: 14px;
+            list-style-position: inside;
+            font-family: MetricApp-regular;
+            strong {
+              color: #01a982;
+            }
+          }
+        }
+
+        .container-direction {
+          width: 30%;
+          border-left: 3px solid #01a982;
+          padding-left: 10%;
+          gap: 15px;
+          img {
+            width: 50px;
+          }
+          strong {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
   .info3 {
     display: flex;
     justify-content: center;
@@ -132,6 +188,52 @@ main {
       }
       a {
         text-decoration: none;
+      }
+    }
+  }
+
+  @media (max-width: 1080px) {
+    .info3 {
+      .container-info3 {
+        p {
+          font-size: 14px;
+        }
+        .black-strong {
+          color: black;
+        }
+        strong {
+          font-size: 14px;
+          color: #01a982;
+        }
+        a {
+          min-width: 260px;
+          max-width: 300px;
+          width: 80%;
+          .button-greenlake {
+            width: 100%;
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            font-size: 14px;
+            padding: 8px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            strong {
+              color: #ffff;
+              font-family: Metricapp-bold;
+            }
+
+            div {
+              min-width: 50px;
+              min-height: 10px;
+              border: 4px solid #ffff;
+            }
+          }
+        }
+        a {
+          text-decoration: none;
+        }
       }
     }
   }

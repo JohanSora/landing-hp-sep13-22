@@ -5,6 +5,7 @@
 @import "./styles/components/header.scss";
 @import "./styles/components/main.scss";
 @import "./styles/components/footer.scss";
+@import "./styles/components/modalhp.scss";
 
 @font-face {
   font-family: "MetricApp-regular";
@@ -21,4 +22,11 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+@media (max-width: 1080px) {
+  .container-header-hp {
+    background-size: cover;
+    background-position: left;
+  }
 }
